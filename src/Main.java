@@ -1,5 +1,5 @@
 public class Main {
-    
+
     public static void main(String[] args) {
         String text[] = {"a", "b", "c", "a", "b", "c", "a", "b", "a", "b", "c", "a", "b", "a"};
         String key[] = {"a", "b", "c"};
@@ -12,7 +12,7 @@ public class Main {
                     break;
                 }
                 if (k == key.length) // 文字列の長さだけ一致すれば
-                    System.out.println(i);
+                    System.out.println(i + 1);
             }
         }
     }
